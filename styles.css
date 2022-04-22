@@ -1,0 +1,34 @@
+.grid {
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.mole {
+    background-image: url('mole.jpg');
+    background-size: cover;
+}
+
+.header-box {
+    display: flex;
+    width: 606px;
+    height: 120px;
+}
+
+.info-box {
+    width: 202px;
+    height: 60px;
+}
+
+#start-button-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
